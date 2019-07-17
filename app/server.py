@@ -9,10 +9,29 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1KQdltcndCKyflEt-BmHJVa9Zy87U81HT?alt=media&key=AIzaSyC8aS9AitIOvp8Uk0pN1dF01NaP_iQY_9o'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['Beans and Yam',
+ 'Bitter leaf soup - Ofe Onugbu',
+ 'Kilishi - Dry meat',
+ 'Naija Jollof Rice',
+ 'Nigerian Akara',
+ 'Nigerian Draw soup',
+ 'Nigerian Egusi soup',
+ 'Nigerian Ewedu soup',
+ 'Nigerian Moi Moi',
+ 'Nigerian Nkwobi',
+ 'Nigerian Noodles',
+ 'Nigerian Nsala soup - White soup',
+ 'Nigerian Ora soup',
+ 'Nigerian Rice and Tomatoe stew',
+ 'Nigerian Suya',
+ 'Nigerian Yam porridge',
+ 'Nigerian Zobo',
+ 'Palm oil Soup',
+ 'Shawarma',
+ 'Soaking Garri - Naija Manpower']
 path = Path(__file__).parent
 
 app = Starlette()
