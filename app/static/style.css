@@ -1,10 +1,5 @@
 body {
-    width: 900px;
-    align: center;
-    height: 800px;
-    padding: 15px;
     background-color: white;
-    box-shadow: 10px 10px 5px grey;
 }
 
 .no-display {
@@ -16,6 +11,7 @@ body {
     padding: 10px 50px;
     text-align: center;
     font-size: 14px;
+    box-shadow: 10px 10px 10px 10px grey;
 }
 
 .title {
@@ -59,7 +55,7 @@ button.analyze-button {
     height: 40px;
     border: solid 1px #7052CB;
     border-radius: 2px;
-    background-color: #7052CB;
+    background-color: #1a8cff;
     font-size: 13px;
     color: #ffffff;
 }
