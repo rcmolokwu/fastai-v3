@@ -8,10 +8,10 @@ body {
 
 .center {
     margin: auto;
-    padding: 10px 50px;
+    padding: 15px;
     text-align: center;
     font-size: 14px;
-    box-shadow: 10px 10px 10px 10px grey;
+    box-shadow: 10px 5px 10px 5px grey;
 }
 
 .title {
@@ -47,7 +47,7 @@ button.choose-file-button {
     background-color: #ffffff;
     border: solid 1px #7052CB;
     font-size: 13px;
-    color: #7052CB;
+    color: #1a8cff;
 }
 
 button.analyze-button {
