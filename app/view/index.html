@@ -13,11 +13,11 @@
   <body>
 <div>
   <div class='center'>
-     <img src="../view/5ccd5abd061b8.png" alt="Nigerian Food Recognition System">
+    <img src="../view/5ccd5abd061b8.png" alt="Food Recognition System">
       <p>
       Use images of <strong>The 20 trained categories listed in the <a href="http://lab.rcmolokwu.site/foodnet/2019/07/17/instructions/">Instruction Page</a></strong> 
     </p>
-     <div class='content'>
+    <div class='content'>
       <div class='no-display'>
         <input id='file-input'
                class='no-display'
@@ -25,7 +25,8 @@
                name='file'
                accept='image/*'
                onchange='showPicked(this)'>
-        <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
+      </div>
+      <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
       <div class='upload-label'>
         <label id='upload-label'>No file chosen</label>
       </div>
@@ -37,7 +38,6 @@
       </div>
       <div class='result-label'>
         <label id='result-label'></label>
-      </div>
       </div>
     </div>
   </div>
